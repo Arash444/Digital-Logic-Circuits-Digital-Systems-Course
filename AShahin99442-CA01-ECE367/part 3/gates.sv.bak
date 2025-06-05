@@ -1,0 +1,12 @@
+`timescale 1ns/1ns
+module gates (input a,b,c,d output w);
+	wire i,j,k,x,y;
+	mynot N1(c,x);
+	mynot N2(d,y);
+	mynand A1(x,y,k);
+	mynand A2(a,b,i);
+	mynand A3(d,i,j);
+	mynand A4(k,j,w);
+
+endmodule
+

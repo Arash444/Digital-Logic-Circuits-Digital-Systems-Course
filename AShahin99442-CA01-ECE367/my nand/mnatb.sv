@@ -1,0 +1,11 @@
+`timescale 1ns/1ns
+module mnatb ();
+	logic aa=0,bb=1;
+	wire ww;
+	mynand CUT(.a(aa),.b(bb),.w(ww));
+	initial begin
+	#20 bb=0;
+	#20 aa=1;bb=1;
+	#20 $stop;
+	end
+endmodule

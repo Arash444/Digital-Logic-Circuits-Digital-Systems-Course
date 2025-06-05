@@ -1,0 +1,10 @@
+`timescale 1ns/1ns
+module gitb ();
+	logic aa=1,bb=1,cc=1,dd=0;
+	wire ww;
+	gatesif AGIT(.a(aa),.b(bb),.c(cc),.d(dd),.w(ww));
+	initial begin
+	#40 aa=0;bb=0;dd=1;
+	#40 $stop;
+	end
+endmodule

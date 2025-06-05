@@ -1,0 +1,9 @@
+`timescale 1ns/1ns
+module gatesif (input a,b,c,d, output w);
+	wire i;
+	supply1 Vdd;
+	mynotif N1(d,Vdd,i);
+	mynotif N2(c,i,w);
+	mynandif A1(a,b,d,w);
+	
+endmodule

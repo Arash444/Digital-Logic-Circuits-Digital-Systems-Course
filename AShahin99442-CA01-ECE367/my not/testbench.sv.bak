@@ -1,0 +1,12 @@
+`timescale 1ns/1ns
+module mntb ();
+	logic aa=0;
+	wire ww;
+	mynot uut(.a(aa),.w(ww));
+	initial begin
+	#40 aa=1;
+	#50 aa=0;
+	#60 aa=1;
+	#20 $stop;
+	end
+endmodule
