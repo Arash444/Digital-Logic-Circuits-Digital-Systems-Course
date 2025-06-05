@@ -1,0 +1,25 @@
+# Reading pref.tcl
+# OpenFile {H:/Daneshgah/Term 3/Digital System/Homework/CA2/Absolute Value/Absolute Value.mpf}
+# Loading project Absolute Value
+vsim -gui work.testbench
+# vsim -gui work.testbench 
+# Start time: 16:59:44 on Nov 10,2021
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.myabsolutevalue
+# Loading work.my2com
+# Loading work.mymulti8
+# Loading work.myabsolutassign
+# Loading work.my2comslice
+# Loading work.mymulti2
+# Loading work.mynot
+# Loading work.mynotif
+add wave -position insertpoint sim:/testbench/*
+run
+run
+run
+# ** Note: $stop    : H:/Daneshgah/Modelsim/CA2/Absolute Value/testbench.sv(11)
+#    Time: 900 ns  Iteration: 0  Instance: /testbench
+# Break in Module testbench at H:/Daneshgah/Modelsim/CA2/Absolute Value/testbench.sv line 11
+# End time: 17:12:26 on Nov 10,2021, Elapsed time: 0:12:42
+# Errors: 0, Warnings: 1

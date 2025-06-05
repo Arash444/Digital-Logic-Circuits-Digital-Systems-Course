@@ -1,0 +1,43 @@
+{H:/Daneshgah/Modelsim/CA2/8 Multi Assign/Multiplexer2.sv} {1 {vlog -work work -sv -stats=none {H:/Daneshgah/Modelsim/CA2/8 Multi Assign/Multiplexer2.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module mymulti2
+
+Top level modules:
+	mymulti2
+
+} {} {}} {H:/Daneshgah/Modelsim/CA2/8 Multi Assign/mynotif.sv} {1 {vlog -work work -sv -stats=none {H:/Daneshgah/Modelsim/CA2/8 Multi Assign/mynotif.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module mynotif
+
+Top level modules:
+	mynotif
+
+} {} {}} {H:/Daneshgah/Modelsim/CA2/8 Multi Assign/mynot.sv} {1 {vlog -work work -sv -stats=none {H:/Daneshgah/Modelsim/CA2/8 Multi Assign/mynot.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module mynot
+
+Top level modules:
+	mynot
+
+} {} {}} {H:/Daneshgah/Modelsim/CA2/8 Multi Assign/Multi8.sv} {1 {vlog -work work -sv -stats=none {H:/Daneshgah/Modelsim/CA2/8 Multi Assign/Multi8.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module mymulti8
+
+Top level modules:
+	mymulti8
+
+} {} {}} {H:/Daneshgah/Modelsim/CA2/8 Multi Assign/Multi.sv} {1 {vlog -work work -sv -stats=none {H:/Daneshgah/Modelsim/CA2/8 Multi Assign/Multi.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module multi8assign
+
+Top level modules:
+	multi8assign
+
+} {} {}} {H:/Daneshgah/Modelsim/CA2/8 Multi Assign/Testbench.sv} {1 {vlog -work work -sv -stats=none {H:/Daneshgah/Modelsim/CA2/8 Multi Assign/Testbench.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module testbench
+
+Top level modules:
+	testbench
+
+} {} {}}

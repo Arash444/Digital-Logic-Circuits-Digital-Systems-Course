@@ -1,0 +1,22 @@
+{H:/Daneshgah/Modelsim/CA2/2 Complement/Testbench.sv} {1 {vlog -work work -sv -stats=none {H:/Daneshgah/Modelsim/CA2/2 Complement/Testbench.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module testbench
+
+Top level modules:
+	testbench
+
+} {} {}} {H:/Daneshgah/Modelsim/CA2/2 Complement/TwoComplement.sv} {1 {vlog -work work -sv -stats=none {H:/Daneshgah/Modelsim/CA2/2 Complement/TwoComplement.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module my2com
+
+Top level modules:
+	my2com
+
+} {} {}} {H:/Daneshgah/Modelsim/CA2/2 Complement/TwoComplementSlice.sv} {1 {vlog -work work -sv -stats=none {H:/Daneshgah/Modelsim/CA2/2 Complement/TwoComplementSlice.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module my2comslice
+
+Top level modules:
+	my2comslice
+
+} {} {}}

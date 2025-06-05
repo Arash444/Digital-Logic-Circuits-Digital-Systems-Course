@@ -1,0 +1,13 @@
+`timescale 1ns/1ns
+module mynotif (input a,EN, output w);
+	wire i,j,k;
+	supply1 Vdd;
+	supply0 Gnd;
+	pmos #(4,7,9) T1(i,Vdd,a);
+	pmos #(4,7,9) T2(w,i,k);
+	nmos #(3,5,7) T3(w,j,EN);
+	nmos #(3,5,7) T4(j,Gnd,a);
+	pmos #(4,7,9) T5(k,Vdd,EN);
+	nmos #(3,5,7) T6(k,Gnd,EN);
+
+endmodule

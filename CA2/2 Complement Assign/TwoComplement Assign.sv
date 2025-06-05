@@ -1,0 +1,4 @@
+`timescale 1ns/1ns
+module twocomassign (input [7:0] a, output [7:0] w);
+	assign #184 w = ~a + 1'b1;
+endmodule
