@@ -1,0 +1,29 @@
+{H:/Daneshgah/Modelsim/CA4/Part 2/Dlatch shift register.sv} {1 {vlog -work work -sv -stats=none {H:/Daneshgah/Modelsim/CA4/Part 2/Dlatch shift register.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module mydshift
+
+Top level modules:
+	mydshift
+
+} {} {}} {H:/Daneshgah/Modelsim/CA4/Part 2/multiplexer.sv} {1 {vlog -work work -sv -stats=none {H:/Daneshgah/Modelsim/CA4/Part 2/multiplexer.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module mymulti
+
+Top level modules:
+	mymulti
+
+} {} {}} {H:/Daneshgah/Modelsim/CA4/Part 2/DLatch.sv} {1 {vlog -work work -sv -stats=none {H:/Daneshgah/Modelsim/CA4/Part 2/DLatch.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module mydlatch
+
+Top level modules:
+	mydlatch
+
+} {} {}} {H:/Daneshgah/Modelsim/CA4/Part 2/testbench.sv} {1 {vlog -work work -sv -stats=none {H:/Daneshgah/Modelsim/CA4/Part 2/testbench.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module testbench
+
+Top level modules:
+	testbench
+
+} {} {}}

@@ -1,0 +1,42 @@
+{H:/Daneshgah/Modelsim/CA3/Part 2/ALUM1.sv} {1 {vlog -work work -sv -stats=none {H:/Daneshgah/Modelsim/CA3/Part 2/ALUM1.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ADDER2
+-- Compiling module BITAND2
+-- Compiling module BITINV2
+-- Compiling module BITOR2
+-- Compiling module MUX22
+-- Compiling module MUX42
+-- Compiling module MyALU2
+-- Compiling module SHIFTER_RIGHT_ARTH2
+
+Top level modules:
+	MyALU2
+
+} {} {}} {H:/Daneshgah/Modelsim/CA3/Part 2/ALU.sv} {1 {vlog -work work -sv -stats=none {H:/Daneshgah/Modelsim/CA3/Part 2/ALU.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module MUX4
+-- Compiling module ADDER
+-- Compiling module SHIFTER_RIGHT_ARTH
+-- Compiling module BITAND
+-- Compiling module BITOR
+-- Compiling module BITINV
+-- Compiling module MUX2
+-- Compiling module MyALU
+
+Top level modules:
+	MyALU
+
+} {} {}} {H:/Daneshgah/Modelsim/CA3/Part 2/mycells.v} {1 {vlog -work work -stats=none {H:/Daneshgah/Modelsim/CA3/Part 2/mycells.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module NOT
+-- Compiling module NAND
+-- Compiling module NOR
+-- Compiling module DFF
+
+Top level modules:
+	NOT
+	NAND
+	NOR
+	DFF
+
+} {} {}}

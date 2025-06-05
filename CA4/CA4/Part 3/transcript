@@ -1,0 +1,497 @@
+# Reading pref.tcl
+# OpenFile {H:/Daneshgah/Modelsim/CA4/Part 3/Part 3.mpf}
+# Loading project Part 3
+# Compile of MasterSlaveDFlipFlop.sv was successful.
+# Compile of multiplexer.sv was successful.
+# Compile of testbench.sv was successful.
+# 3 compiles, 0 failed with no errors.
+vsim -gui work.testbench
+# vsim -gui work.testbench 
+# Start time: 11:30:15 on Dec 12,2021
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.myMSDFF
+# Loading work.mymulti
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'b'. The port definition is at: H:/Daneshgah/Modelsim/CA4/Part 3/multiplexer.sv(2).
+#    Time: 0 ns  Iteration: 0  Instance: /testbench/MMSDFF/MT1 File: H:/Daneshgah/Modelsim/CA4/Part 3/MasterSlaveDFlipFlop.sv Line: 4
+# Compile of MasterSlaveDFlipFlop.sv was successful.
+# Compile of multiplexer.sv was successful.
+# Compile of testbench.sv was successful.
+# 3 compiles, 0 failed with no errors.
+vsim -gui work.testbench
+# End time: 11:30:39 on Dec 12,2021, Elapsed time: 0:00:24
+# Errors: 0, Warnings: 4
+# vsim -gui work.testbench 
+# Start time: 11:30:39 on Dec 12,2021
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.myMSDFF
+# Loading work.mymulti
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'b'. The port definition is at: H:/Daneshgah/Modelsim/CA4/Part 3/multiplexer.sv(2).
+#    Time: 0 ns  Iteration: 0  Instance: /testbench/MMSDFF/MT1 File: H:/Daneshgah/Modelsim/CA4/Part 3/MasterSlaveDFlipFlop.sv Line: 4
+add wave -position insertpoint sim:/testbench/*
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# ** Note: $stop    : H:/Daneshgah/Modelsim/CA4/Part 3/testbench.sv(22)
+#    Time: 1280 ns  Iteration: 0  Instance: /testbench
+# Break in Module testbench at H:/Daneshgah/Modelsim/CA4/Part 3/testbench.sv line 22
+# Compile of MasterSlaveDFlipFlop.sv was successful.
+# Compile of multiplexer.sv was successful.
+# Compile of testbench.sv was successful.
+# 3 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.testbench
+# Loading work.myMSDFF
+# Loading work.mymulti
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'b'. The port definition is at: H:/Daneshgah/Modelsim/CA4/Part 3/multiplexer.sv(2).
+#    Time: 0 ns  Iteration: 0  Instance: /testbench/MMSDFF/MT1 File: H:/Daneshgah/Modelsim/CA4/Part 3/MasterSlaveDFlipFlop.sv Line: 4
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# ** Note: $stop    : H:/Daneshgah/Modelsim/CA4/Part 3/testbench.sv(21)
+#    Time: 1180 ns  Iteration: 0  Instance: /testbench
+# Break in Module testbench at H:/Daneshgah/Modelsim/CA4/Part 3/testbench.sv line 21
+run
+# Compile of MasterSlaveDFlipFlop.sv was successful.
+# Compile of multiplexer.sv was successful.
+# Compile of testbench.sv was successful.
+# 3 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.testbench
+# Loading work.myMSDFF
+# Loading work.mymulti
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'b'. The port definition is at: H:/Daneshgah/Modelsim/CA4/Part 3/multiplexer.sv(2).
+#    Time: 0 ns  Iteration: 0  Instance: /testbench/MMSDFF/MT1 File: H:/Daneshgah/Modelsim/CA4/Part 3/MasterSlaveDFlipFlop.sv Line: 4
+run
+run
+run
+run
+run
+run
+# Compile of MasterSlaveDFlipFlop.sv was successful.
+# Compile of multiplexer.sv was successful.
+# Compile of testbench.sv was successful.
+# 3 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.testbench
+# Loading work.myMSDFF
+# Loading work.mymulti
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'b'. The port definition is at: H:/Daneshgah/Modelsim/CA4/Part 3/multiplexer.sv(2).
+#    Time: 0 ns  Iteration: 0  Instance: /testbench/MMSDFF/MT1 File: H:/Daneshgah/Modelsim/CA4/Part 3/MasterSlaveDFlipFlop.sv Line: 4
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# ** Note: $stop    : H:/Daneshgah/Modelsim/CA4/Part 3/testbench.sv(22)
+#    Time: 1230 ns  Iteration: 0  Instance: /testbench
+# Break in Module testbench at H:/Daneshgah/Modelsim/CA4/Part 3/testbench.sv line 22
+# Compile of MasterSlaveDFlipFlop.sv was successful.
+# Compile of multiplexer.sv was successful.
+# Compile of testbench.sv was successful.
+# 3 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.testbench
+# Loading work.myMSDFF
+# Loading work.mymulti
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'b'. The port definition is at: H:/Daneshgah/Modelsim/CA4/Part 3/multiplexer.sv(2).
+#    Time: 0 ns  Iteration: 0  Instance: /testbench/MMSDFF/MT1 File: H:/Daneshgah/Modelsim/CA4/Part 3/MasterSlaveDFlipFlop.sv Line: 4
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# ** Note: $stop    : H:/Daneshgah/Modelsim/CA4/Part 3/testbench.sv(22)
+#    Time: 1230 ns  Iteration: 0  Instance: /testbench
+# Break in Module testbench at H:/Daneshgah/Modelsim/CA4/Part 3/testbench.sv line 22
+# Compile of MasterSlaveDFlipFlop.sv was successful.
+# Compile of multiplexer.sv was successful.
+# Compile of testbench.sv was successful.
+# 3 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.testbench
+# Loading work.myMSDFF
+# Loading work.mymulti
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'b'. The port definition is at: H:/Daneshgah/Modelsim/CA4/Part 3/multiplexer.sv(2).
+#    Time: 0 ns  Iteration: 0  Instance: /testbench/MMSDFF/MT1 File: H:/Daneshgah/Modelsim/CA4/Part 3/MasterSlaveDFlipFlop.sv Line: 4
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# ** Note: $stop    : H:/Daneshgah/Modelsim/CA4/Part 3/testbench.sv(22)
+#    Time: 1230 ns  Iteration: 0  Instance: /testbench
+# Break in Module testbench at H:/Daneshgah/Modelsim/CA4/Part 3/testbench.sv line 22
+# Compile of MasterSlaveDFlipFlop.sv was successful.
+# Compile of multiplexer.sv was successful.
+# Compile of testbench.sv was successful.
+# 3 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.testbench
+# Loading work.myMSDFF
+# Loading work.mymulti
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'b'. The port definition is at: H:/Daneshgah/Modelsim/CA4/Part 3/multiplexer.sv(2).
+#    Time: 0 ns  Iteration: 0  Instance: /testbench/MMSDFF/MT1 File: H:/Daneshgah/Modelsim/CA4/Part 3/MasterSlaveDFlipFlop.sv Line: 4
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# ** Note: $stop    : H:/Daneshgah/Modelsim/CA4/Part 3/testbench.sv(22)
+#    Time: 1230 ns  Iteration: 0  Instance: /testbench
+# Break in Module testbench at H:/Daneshgah/Modelsim/CA4/Part 3/testbench.sv line 22
+# Compile of MasterSlaveDFlipFlop.sv was successful.
+# Compile of multiplexer.sv was successful.
+# Compile of testbench.sv was successful.
+# 3 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.testbench
+# Loading work.mydshift
+# Loading work.mymulti
+# ** Error (suppressible): (vsim-3389) Port 'serIn' not found in the connected module (1st connection).
+#    Time: 0 ns  Iteration: 0  Instance: /testbench/MDS File: H:/Daneshgah/Modelsim/CA4/Part 3/testbench.sv Line: 5
+# ** Error (suppressible): (vsim-3389) Port 'reset' not found in the connected module (2nd connection).
+#    Time: 0 ns  Iteration: 0  Instance: /testbench/MDS File: H:/Daneshgah/Modelsim/CA4/Part 3/testbench.sv Line: 5
+# ** Error (suppressible): (vsim-3389) Port 'PO' not found in the connected module (4th connection).
+#    Time: 0 ns  Iteration: 0  Instance: /testbench/MDS File: H:/Daneshgah/Modelsim/CA4/Part 3/testbench.sv Line: 5
+# Compile of MasterSlaveDFlipFlop.sv was successful.
+# Compile of multiplexer.sv was successful.
+# Compile of testbench.sv was successful.
+# 3 compiles, 0 failed with no errors.
+vsim -gui work.testbench
+# vsim -gui work.testbench 
+# Start time: 11:30:39 on Dec 12,2021
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.myMSDFF
+# Loading work.mymulti
+# ** Error: (vsim-3063) Port 'PO' not found in the connected module (4th connection).
+#    Time: 0 ns  Iteration: 0  Instance: /testbench/MDS File: H:/Daneshgah/Modelsim/CA4/Part 3/testbench.sv Line: 5
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'b'. The port definition is at: H:/Daneshgah/Modelsim/CA4/Part 3/multiplexer.sv(2).
+#    Time: 0 ns  Iteration: 0  Instance: /testbench/MDS/MT1 File: H:/Daneshgah/Modelsim/CA4/Part 3/MasterSlaveDFlipFlop.sv Line: 4
+# Error loading design
+# End time: 13:49:42 on Dec 12,2021, Elapsed time: 2:19:03
+# Errors: 4, Warnings: 3
+vsim -gui work.testbench
+# vsim -gui work.testbench 
+# Start time: 13:53:42 on Dec 12,2021
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.myMSDFF
+# Loading work.mymulti
+# ** Error: (vsim-3063) Port 'PO' not found in the connected module (4th connection).
+#    Time: 0 ns  Iteration: 0  Instance: /testbench/MDS File: H:/Daneshgah/Modelsim/CA4/Part 3/testbench.sv Line: 5
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'b'. The port definition is at: H:/Daneshgah/Modelsim/CA4/Part 3/multiplexer.sv(2).
+#    Time: 0 ns  Iteration: 0  Instance: /testbench/MDS/MT1 File: H:/Daneshgah/Modelsim/CA4/Part 3/MasterSlaveDFlipFlop.sv Line: 4
+# Error loading design
+# End time: 13:53:42 on Dec 12,2021, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 2
+vsim -gui work.testbench
+# vsim -gui work.testbench 
+# Start time: 13:53:54 on Dec 12,2021
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.myMSDFF
+# Loading work.mymulti
+# ** Error: (vsim-3063) Port 'PO' not found in the connected module (4th connection).
+#    Time: 0 ns  Iteration: 0  Instance: /testbench/MDS File: H:/Daneshgah/Modelsim/CA4/Part 3/testbench.sv Line: 5
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'b'. The port definition is at: H:/Daneshgah/Modelsim/CA4/Part 3/multiplexer.sv(2).
+#    Time: 0 ns  Iteration: 0  Instance: /testbench/MDS/MT1 File: H:/Daneshgah/Modelsim/CA4/Part 3/MasterSlaveDFlipFlop.sv Line: 4
+# Error loading design
+# End time: 13:53:55 on Dec 12,2021, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 2
+# Compile of MasterSlaveDFlipFlop.sv was successful.
+# Compile of multiplexer.sv was successful.
+# Compile of testbench.sv was successful.
+# 3 compiles, 0 failed with no errors.
+vsim -gui work.testbench
+# vsim -gui work.testbench 
+# Start time: 13:54:32 on Dec 12,2021
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.myMSDFF
+# Loading work.mymulti
+# ** Error: (vsim-3063) Port 'serIn' not found in the connected module (1st connection).
+#    Time: 0 ns  Iteration: 0  Instance: /testbench/MDS File: H:/Daneshgah/Modelsim/CA4/Part 3/testbench.sv Line: 5
+# ** Error: (vsim-3063) Port 'PO' not found in the connected module (4th connection).
+#    Time: 0 ns  Iteration: 0  Instance: /testbench/MDS File: H:/Daneshgah/Modelsim/CA4/Part 3/testbench.sv Line: 5
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'b'. The port definition is at: H:/Daneshgah/Modelsim/CA4/Part 3/multiplexer.sv(2).
+#    Time: 0 ns  Iteration: 0  Instance: /testbench/MDS/MT1 File: H:/Daneshgah/Modelsim/CA4/Part 3/MasterSlaveDFlipFlop.sv Line: 4
+# Error loading design
+# End time: 13:54:32 on Dec 12,2021, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 2
+# Compile of MasterSlaveDFlipFlop.sv was successful.
+# Compile of multiplexer.sv was successful.
+# Compile of testbench.sv was successful.
+# 3 compiles, 0 failed with no errors.
+vsim -gui work.testbench
+# vsim -gui work.testbench 
+# Start time: 13:55:13 on Dec 12,2021
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.myMSDFF
+# Loading work.mymulti
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'b'. The port definition is at: H:/Daneshgah/Modelsim/CA4/Part 3/multiplexer.sv(2).
+#    Time: 0 ns  Iteration: 0  Instance: /testbench/MDS/MT1 File: H:/Daneshgah/Modelsim/CA4/Part 3/MasterSlaveDFlipFlop.sv Line: 4
+add wave -position insertpoint sim:/testbench/*
+restart
+run
+run
+run
+run
+# ** Note: $stop    : H:/Daneshgah/Modelsim/CA4/Part 3/testbench.sv(11)
+#    Time: 400 ns  Iteration: 0  Instance: /testbench
+# Break in Module testbench at H:/Daneshgah/Modelsim/CA4/Part 3/testbench.sv line 11
+# Compile of MasterSlaveDFlipFlop.sv was successful.
+# Compile of multiplexer.sv was successful.
+# Compile of testbench.sv was successful.
+# 3 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.testbench
+# Loading work.myMSDFF
+# Loading work.mymulti
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'b'. The port definition is at: H:/Daneshgah/Modelsim/CA4/Part 3/multiplexer.sv(2).
+#    Time: 0 ns  Iteration: 0  Instance: /testbench/MDS/MT1 File: H:/Daneshgah/Modelsim/CA4/Part 3/MasterSlaveDFlipFlop.sv Line: 4
+run
+run
+run
+run
+# ** Note: $stop    : H:/Daneshgah/Modelsim/CA4/Part 3/testbench.sv(11)
+#    Time: 400 ns  Iteration: 0  Instance: /testbench
+# Break in Module testbench at H:/Daneshgah/Modelsim/CA4/Part 3/testbench.sv line 11
+# Compile of MasterSlaveDFlipFlop.sv was successful.
+# Compile of multiplexer.sv was successful.
+# Compile of testbench.sv was successful.
+# 3 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.testbench
+# Loading work.myMSDFF
+# Loading work.mymulti
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'b'. The port definition is at: H:/Daneshgah/Modelsim/CA4/Part 3/multiplexer.sv(2).
+#    Time: 0 ns  Iteration: 0  Instance: /testbench/MDS/MT1 File: H:/Daneshgah/Modelsim/CA4/Part 3/MasterSlaveDFlipFlop.sv Line: 4
+run
+run
+run
+run
+# ** Note: $stop    : H:/Daneshgah/Modelsim/CA4/Part 3/testbench.sv(11)
+#    Time: 400 ns  Iteration: 0  Instance: /testbench
+# Break in Module testbench at H:/Daneshgah/Modelsim/CA4/Part 3/testbench.sv line 11
+# Compile of MasterSlaveDFlipFlop.sv was successful.
+# Compile of multiplexer.sv was successful.
+# Compile of testbench.sv was successful.
+# 3 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.testbench
+# Loading work.myMSDFF
+# Loading work.mymulti
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'b'. The port definition is at: H:/Daneshgah/Modelsim/CA4/Part 3/multiplexer.sv(2).
+#    Time: 0 ns  Iteration: 0  Instance: /testbench/MDS/MT1 File: H:/Daneshgah/Modelsim/CA4/Part 3/MasterSlaveDFlipFlop.sv Line: 4
+run
+run
+run
+run
+run
+# ** Note: $stop    : H:/Daneshgah/Modelsim/CA4/Part 3/testbench.sv(13)
+#    Time: 440 ns  Iteration: 0  Instance: /testbench
+# Break in Module testbench at H:/Daneshgah/Modelsim/CA4/Part 3/testbench.sv line 13
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'b'. The port definition is at: H:/Daneshgah/Modelsim/CA4/Part 3/multiplexer.sv(2).
+#    Time: 0 ns  Iteration: 0  Instance: /testbench/MDS/MT1 File: H:/Daneshgah/Modelsim/CA4/Part 3/MasterSlaveDFlipFlop.sv Line: 4
+run
+run
+run
+run
+run
+# ** Note: $stop    : H:/Daneshgah/Modelsim/CA4/Part 3/testbench.sv(13)
+#    Time: 440 ns  Iteration: 0  Instance: /testbench
+# Break in Module testbench at H:/Daneshgah/Modelsim/CA4/Part 3/testbench.sv line 13
+# Compile of MasterSlaveDFlipFlop.sv was successful.
+# Compile of multiplexer.sv was successful.
+# Compile of testbench.sv was successful.
+# 3 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.testbench
+# Loading work.myMSDFF
+# Loading work.mymulti
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'b'. The port definition is at: H:/Daneshgah/Modelsim/CA4/Part 3/multiplexer.sv(2).
+#    Time: 0 ns  Iteration: 0  Instance: /testbench/MDS/MT1 File: H:/Daneshgah/Modelsim/CA4/Part 3/MasterSlaveDFlipFlop.sv Line: 4
+run
+run
+run
+run
+run
+run
+# ** Note: $stop    : H:/Daneshgah/Modelsim/CA4/Part 3/testbench.sv(15)
+#    Time: 590 ns  Iteration: 0  Instance: /testbench
+# Break in Module testbench at H:/Daneshgah/Modelsim/CA4/Part 3/testbench.sv line 15
+restart
+# Compile of MasterSlaveDFlipFlop.sv was successful.
+# Compile of multiplexer.sv was successful.
+# Compile of testbench.sv was successful.
+# 3 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.testbench
+# Loading work.myMSDFF
+# Loading work.mymulti
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'b'. The port definition is at: H:/Daneshgah/Modelsim/CA4/Part 3/multiplexer.sv(2).
+#    Time: 0 ns  Iteration: 0  Instance: /testbench/MDS/MT1 File: H:/Daneshgah/Modelsim/CA4/Part 3/MasterSlaveDFlipFlop.sv Line: 4
+run
+run
+run
+run
+run
+run
+# ** Note: $stop    : H:/Daneshgah/Modelsim/CA4/Part 3/testbench.sv(15)
+#    Time: 540 ns  Iteration: 0  Instance: /testbench
+# Break in Module testbench at H:/Daneshgah/Modelsim/CA4/Part 3/testbench.sv line 15
+# Compile of MasterSlaveDFlipFlop.sv was successful.
+# Compile of multiplexer.sv was successful.
+# Compile of testbench.sv was successful.
+# 3 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.testbench
+# Loading work.myMSDFF
+# Loading work.mymulti
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'b'. The port definition is at: H:/Daneshgah/Modelsim/CA4/Part 3/multiplexer.sv(2).
+#    Time: 0 ns  Iteration: 0  Instance: /testbench/MDS/MT1 File: H:/Daneshgah/Modelsim/CA4/Part 3/MasterSlaveDFlipFlop.sv Line: 4
+run
+run
+run
+run
+run
+run
+run
+# ** Note: $stop    : H:/Daneshgah/Modelsim/CA4/Part 3/testbench.sv(16)
+#    Time: 640 ns  Iteration: 0  Instance: /testbench
+# Break in Module testbench at H:/Daneshgah/Modelsim/CA4/Part 3/testbench.sv line 16
+# Compile of MasterSlaveDFlipFlop.sv was successful.
+# Compile of multiplexer.sv was successful.
+# Compile of testbench.sv was successful.
+# 3 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.testbench
+# Loading work.myMSDFF
+# Loading work.mymulti
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'b'. The port definition is at: H:/Daneshgah/Modelsim/CA4/Part 3/multiplexer.sv(2).
+#    Time: 0 ns  Iteration: 0  Instance: /testbench/MDS/MT1 File: H:/Daneshgah/Modelsim/CA4/Part 3/MasterSlaveDFlipFlop.sv Line: 4
+run
+run
+run
+run
+run
+run
+run
+# ** Note: $stop    : H:/Daneshgah/Modelsim/CA4/Part 3/testbench.sv(19)
+#    Time: 680 ns  Iteration: 0  Instance: /testbench
+# Break in Module testbench at H:/Daneshgah/Modelsim/CA4/Part 3/testbench.sv line 19
+# Compile of MasterSlaveDFlipFlop.sv was successful.
+# Compile of multiplexer.sv was successful.
+# Compile of testbench.sv was successful.
+# 3 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.testbench
+# Loading work.myMSDFF
+# Loading work.mymulti
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'b'. The port definition is at: H:/Daneshgah/Modelsim/CA4/Part 3/multiplexer.sv(2).
+#    Time: 0 ns  Iteration: 0  Instance: /testbench/MDS/MT1 File: H:/Daneshgah/Modelsim/CA4/Part 3/MasterSlaveDFlipFlop.sv Line: 4
+run
+run
+run
+run
+run
+run
+run
+# ** Note: $stop    : H:/Daneshgah/Modelsim/CA4/Part 3/testbench.sv(20)
+#    Time: 690 ns  Iteration: 0  Instance: /testbench
+# Break in Module testbench at H:/Daneshgah/Modelsim/CA4/Part 3/testbench.sv line 20
+# Compile of MasterSlaveDFlipFlop.sv was successful.
+# Compile of multiplexer.sv was successful.
+# Compile of testbench.sv was successful.
+# 3 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.testbench
+# Loading work.myMSDFF
+# Loading work.mymulti
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'b'. The port definition is at: H:/Daneshgah/Modelsim/CA4/Part 3/multiplexer.sv(2).
+#    Time: 0 ns  Iteration: 0  Instance: /testbench/MDS/MT1 File: H:/Daneshgah/Modelsim/CA4/Part 3/MasterSlaveDFlipFlop.sv Line: 4
+run
+run
+run
+run
+run
+run
+run
+# ** Note: $stop    : H:/Daneshgah/Modelsim/CA4/Part 3/testbench.sv(20)
+#    Time: 640 ns  Iteration: 0  Instance: /testbench
+# Break in Module testbench at H:/Daneshgah/Modelsim/CA4/Part 3/testbench.sv line 20
+# End time: 15:44:19 on Dec 12,2021, Elapsed time: 1:49:06
+# Errors: 0, Warnings: 2

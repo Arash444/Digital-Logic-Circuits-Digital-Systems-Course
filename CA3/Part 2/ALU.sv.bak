@@ -1,0 +1,44 @@
+module MUX4(input signed [15:0] a,b,c,d, input f0,f1, output signed [15:0] w);
+	assign w = ((f1==0)&(f0==0)) ? a:
+ 		   ((f1==0)&(f0==1)) ? b:
+ 		   ((f1==1)&(f0==0)) ? c:
+ 		   ((f1==1)&(f0==1)) ? d: 16'b0;
+endmodule
+module ADDER(input signed [15:0] a,b, input cin, output signed [15:0] w);
+	assign w = a + b + cin;
+endmodule
+module SHIFTER_RIGHT_ARTH(input signed [15:0] a, output signed [15:0] w);
+	assign w = a>>>1;
+endmodule
+module BITAND(input signed [15:0] a,b, output signed [15:0] w);
+	assign w = a&b;
+endmodule
+module BITOR(input signed [15:0] a,b, output signed [15:0] w);
+	assign w = a|b;
+endmodule
+module BITINV(input signed [15:0] a, output signed [15:0] w);
+	assign w = ~a;
+endmodule
+module MUX2(input signed [15:0] a,b, input f, output signed [15:0] w);
+	assign w = f ? b : a;
+endmodule
+module MyALU(input signed [15:0] inM, inN, input [2:0] opc, input inC, output signed [15:0] outF, output zer, neg);
+	wire signed [15:0] adder, second_input,or_and,shiftn,shiftm,and1,or1,invm;
+	wire cin,ctrl0,ctrl1,opc1_not,i;
+	assign opc1_not = ~opc[1];
+	assign cin = inC&(~opc[0])&opc1_not&(~opc[2]);
+	SHIFTER_RIGHT_ARTH shifter1(inM,shiftm);
+	SHIFTER_RIGHT_ARTH shifter2(inN,shiftn);
+	MUX4 mux40(inN,shiftn,1,shiftm,0,1,second_input);
+	ADDER Adder(inM, second_input, cin, adder);
+	BITAND AND(inM,inN,and1);
+	BITOR OR(inM,inN,or1);
+	MUX2 mux2(and1,or1,opc[0],or_and);
+	BITINV inv(inM,invm);
+	assign ctrl0 = (opc[0]|opc1_not)&opc[2];
+	assign ctrl1 = opc[1]&opc[2];
+	MUX4 mux41(adder,or_and,invm,16'b0,ctrl0,ctrl1,outF);
+	assign i = outF[0]|outF[1]|outF[2]|outF[3]|outF[4]|outF[5]|outF[6]|outF[7]|outF[8]|outF[9]|outF[10]|outF[11]|outF[12]|outF[13]|outF[14]|outF[15];
+	assign zer = ~i;
+	assign neg = outF[15];
+endmodule

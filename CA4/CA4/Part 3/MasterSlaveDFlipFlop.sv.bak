@@ -1,0 +1,7 @@
+`timescale 1ns/1ns
+module myMSDFF (input D,R,clk, output Q);
+	wire i,j;
+	mymulti MT1(i,D,clk,i);
+	mymulti MT2(i,j,clk,j);
+	mymulti MT3(j,0,R,Q);
+endmodule

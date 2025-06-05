@@ -1,0 +1,22 @@
+{H:/Daneshgah/Modelsim/CA4/Part 3/multiplexer.sv} {1 {vlog -work work -sv -stats=none {H:/Daneshgah/Modelsim/CA4/Part 3/multiplexer.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module mymulti
+
+Top level modules:
+	mymulti
+
+} {} {}} {H:/Daneshgah/Modelsim/CA4/Part 3/MasterSlaveDFlipFlop.sv} {1 {vlog -work work -sv -stats=none {H:/Daneshgah/Modelsim/CA4/Part 3/MasterSlaveDFlipFlop.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module myMSDFF
+
+Top level modules:
+	myMSDFF
+
+} {} {}} {H:/Daneshgah/Modelsim/CA4/Part 3/testbench.sv} {1 {vlog -work work -sv -stats=none {H:/Daneshgah/Modelsim/CA4/Part 3/testbench.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module testbench
+
+Top level modules:
+	testbench
+
+} {} {}}

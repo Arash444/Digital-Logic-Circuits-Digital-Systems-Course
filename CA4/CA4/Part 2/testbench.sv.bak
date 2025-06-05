@@ -1,0 +1,23 @@
+`timescale 1ns/1ns
+module testbench ();
+	logic RR=0,DD=1,CLK=1;
+	wire QQ;
+	myMSDFF MMSDFF(.R(RR),.D(DD),.clk(CLK),.Q(QQ));
+	initial begin
+	#100 CLK=0;
+	#100 RR=1;
+	#100 RR=0;
+	#100 DD=0;CLK=1;
+	#100 DD=1;CLK=1;
+	#100 CLK=0;
+	#20 CLK=1;
+	#100 CLK=0;
+	#100 DD=0;
+	#20 DD=1;
+	#100 CLK=1;
+	#100 DD=0;
+	#40 CLK=0;
+	#80 CLK=1;
+	#80 $stop;
+	end
+endmodule
